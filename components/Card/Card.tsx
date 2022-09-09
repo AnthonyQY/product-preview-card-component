@@ -30,7 +30,7 @@ export default function Card() {
           <div className={styles.original__price}>$169.99</div>
         </div>
         <button className={styles.add__button}>
-          <img src={CartIcon.src} /> Add to Cart
+          <img src={CartIcon.src} alt="Cart" /> Add to Cart
         </button>
       </div>
     </div>
