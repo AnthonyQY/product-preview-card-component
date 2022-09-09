@@ -29,7 +29,9 @@ export default function Card() {
           <div className={styles.current__price}>$149.99</div>
           <div className={styles.original__price}>$169.99</div>
         </div>
-        <button className={styles.add__button}>Add to Cart</button>
+        <button className={styles.add__button}>
+          <img src={CartIcon.src} /> Add to Cart
+        </button>
       </div>
     </div>
   );
